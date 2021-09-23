@@ -1,6 +1,6 @@
 <p>{{title}}</p>
-<app-first></app-first>
+<app-first [firstInput]="appMessage"></app-first>
 <app-second></app-second>
-<app-third></app-third>
+<app-third (thirdOutput)="appMethod()"></app-third>
 <app-fourth></app-fourth>
 <router-outlet></router-outlet>
