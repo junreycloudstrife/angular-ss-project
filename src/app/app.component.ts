@@ -10,7 +10,7 @@ export class AppComponent {
 
   appMessage = "Message from AppComponent to FirstComponent";
 
-  appMethod(){
-    alert('Click Me! button works');
+  appMethod(event){
+    alert(event);
   }
 }

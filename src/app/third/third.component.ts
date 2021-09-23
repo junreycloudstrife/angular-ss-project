@@ -15,7 +15,7 @@ export class ThirdComponent implements OnInit {
   }
 
   thirdMethod(){
-    this.thirdOutput.emit();
+    this.thirdOutput.emit('Click Me! button works');
   }
 
 }
